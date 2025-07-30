@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikhwan Portofolio</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-slate-50">
+    <!-- Header Start -->
+     <header class="dark:bg-slate-900 fixed bg-white top-0 left-0 w-full flex items-center z-10 shadow-md lg:px-28">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="flex px-4 py-5">
+                    <img src="img/html.png" alt="" class="w-6 dark:invert">
+                    <a href="#home" class="font-bold text-dark2 ml-1 lg:text-xl dark:text-slate-100">IkhwanPortofolio</a>
+                </div>
+
+                <div class="flex items-center px-4">
+                    <button class="absolute block right-4 lg:hidden" id="hamburger" name="hamburger" type="button">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left dark:bg-slate-100"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out dark:bg-slate-100"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left dark:bg-slate-100"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute right-4 max-w-[200px] rounded-sm bg-white w-full py-5 top-full shadow-lg lg:static lg:block lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-slate-900">
+                        <ul class="block lg:flex">
+                            <li class="group"><a href="#home" class="text-dark2 py-2 mx-8 flex group-hover:text-dark1 group-hover:font-bold dark:text-slate-100 dark:group-hover:text-slate-300">Home</a></li>
+                            <li class="group"><a href="#about" class="text-dark2 py-2 mx-8 flex group-hover:text-dark1 group-hover:font-bold dark:text-slate-100 dark:group-hover:text-slate-300">About</a></li>
+                            <li class="group"><a href="#skill" class="text-dark2 py-2 mx-8 flex group-hover:text-dark1 group-hover:font-bold dark:text-slate-100 dark:group-hover:text-slate-300">Skill</a></li>
+                            <li class="group"><a href="#portofolio" class="text-dark2 py-2 mx-8 flex group-hover:text-dark1 group-hover:font-bold dark:text-slate-100 dark:group-hover:text-slate-300">Portofolio</a></li>
+                            <li class="group"><a href="#contact" class="text-dark2 py-2 mx-8 flex group-hover:text-dark1 group-hover:font-bold dark:text-slate-100 dark:group-hover:text-slate-300">Contact</a></li>
+                            <li class="group">
+                                <button id="dark-toggle-btn" class="w-6 h-6 relative hover:scale-105 ml-8 mt-2">
+                                    <img src="img/icons8-dark-mode-50.png" alt="Dark Mode" id="dark-icon" class="absolute top-0 left-0 w-6 h-6 dark:invert">
+                                    <img src="img/icons8-light-mode-78.png" alt="Light Mode" id="light-icon" class="absolute top-0 left-0 w-6 h-6 dark:invert">
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+     <!-- Header End -->
+
+    <!-- Hero Section Start -->
+     <section id="home" class="pt-32 pb-32 lg:pt-44 dark:bg-gradient-to-br dark:from-slate-900 dark:to-slate-800">
+        <div class="container">
+            <div class="flex flex-wrap lg:px-28">
+                <div class="w-full self-center px-4 lg:w-[600px]">
+                    <h1 class="dark:text-slate-100 text-base font-semibold text-dark1 md:text-xl">Halo Semuanya!, saya <span class="block text-4xl mt-1 lg:text-5xl">Ikhwan Taufiq</span></h1>
+                    <h2 class="dark:text-slate-100 font-medium text-dark1 text-lg mb-5 lg:text-2xl mt-1">Graphic Design & <span class="font-bold">Front End Dev</span></h2>
+                    <p class="dark:text-slate-400 text-dark1">Belajar web Programming itu mudah dan menyenangkan bukan. <span class="font-semibold">bukan!</span></p>
+                    <div class="w-full mt-4 flex">
+                        <h3 class="self-center text-dark1 dark:text-slate-100">Follow me on:</h3>
+                        <div class="dark:hover:bg-slate-100 bg-slate-200 w-[35px] rounded-full shadow-lg p-2 ml-3 hover:invert transition cursor-pointer"><img src="img/icons8-github-logo-64.png" alt=""></div>
+                        <div class="dark:hover:bg-slate-100 bg-slate-200 w-[35px] rounded-full shadow-lg p-2 ml-3 hover:invert transition-all cursor-pointer"><img src="img/icons8-instagram-48.png" alt=""></div>
+                        <div class="dark:hover:bg-slate-100 bg-slate-200 w-[35px] rounded-full shadow-lg p-2 ml-3 hover:invert transition-all cursor-pointer"><img src="img/icons8-tiktok-50.png" alt=""></div>
+                    </div>
+                    <button class=" dark:bg-slate-100 flex bg bg-dark2 text-white py-3 shadow-lg mt-5 group px-5 rounded-md hover:invert transition hover:bg-black border border-white dark:hover:bg-transparent dark:border-white dark:invert-0">
+                        <img width="21" height="10" src="https://img.icons8.com/fluency-systems-regular/48/new-post.png" alt="new-post" class="invert dark:invert-0 dark:group-hover:backdrop-invert-0"/>
+                        <h3 class="ml-2 text-sm dark:text-slate-900 dark:group-hover:text-slate-100">Contact Me</h3>
+                    </button>
+                </div>
+
+                <div class="w-full self-center px-7 mt-7 lg:w-[350px] sm:w-[400px] sm:mx-auto">
+                    <div class="rounded-full overflow-hidden border-8 border-white shadow-2xl dark:border-slate-800">
+                        <img src="img/me.jpg" alt="" class="scale-125 translate-x-2 translate-y-8 object-cover max-w-full mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero Section End -->
+
+    <!-- About Me Section Start-->
+     <section id="about" class="pt-24 pb-32 bg-slate-200 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-800">
+        <div class="container">
+            <h1 class="text-2xl font-bold text-dark2 text-center lg:text-4xl dark:text-slate-100">About <span class="text-sky-600">Me</span></h1>
+            <h3 class="text-center text-sm mb-5 text-dark1 dark:text-slate-400">Temukan perjalananku, passion-ku, dan kisah di balik setiap karya.</h3>
+            <div class="flex flex-wrap lg:px-28 justify-between">
+                <div class="w-60 lg:w-[250px] lg:self-center mx-auto self-center hover:rotate-3 transition shadow-lg overflow-hidden">
+                    <img src="img/me.jpg" alt="" class="scale-125 object-cover">
+                </div>
+
+                <div class="w-full px-4 mt-10 sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:w-[700px] lg:gap-8 lg:ml-2 lg:mb-10">
+                    <!-- bio -->
+                    <div class="mb-10 lg:mb-0">
+                        <div class="flex">
+                            <div class="bg-sky-600 w-8 rounded-full p-2">
+                               <img src="img/id-card.png" alt="" class="invert">
+                            </div>
+                            <h2 class="ml-2 self-center font-semibold dark:text-slate-100">Bio</h2>
+                        </div>
+                        <p class="pt-3 text-sm text-dark1 dark:text-slate-400">Mahasiswa TI yang antusias di bidang front-end dan keamanan. Aktif bikin portofolio & terbiasa kerja mandiri maupun tim.</p>
+                    </div>
+
+                    <!-- Hobbies -->
+                    <div class="mb-10 lg:mb-0">
+                        <div class="flex">
+                            <div class="bg-green-600 w-8 rounded-full p-2">
+                               <img src="img/heart.png" alt="" class="invert">
+                            </div>
+                            <h2 class="ml-2 self-center font-semibold dark:text-slate-100">Hobbies</h2>
+                        </div>
+                        <p class="pt-3 text-sm text-dark1 dark:text-slate-400">Eksplorasi UI pakai Tailwind, workout (PPL), baca manhwa, dan suka ngulik bug atau error di aplikasi.</p>
+                    </div>
+
+                    <!-- Languages -->
+                    <div class="mb-10 lg:mb-0">
+                        <div class="flex">
+                            <div class="bg-orange-600 w-8 rounded-full p-2">
+                               <img src="img/earth-globe.png" alt="" class="invert">
+                            </div>
+                            <h2 class="ml-2 self-center font-semibold dark:text-slate-100">Languages</h2>
+                        </div>
+                        <p class="pt-3 text-sm text-dark1 dark:text-slate-400">🇮🇩 Indonesia (aktif), 🇬🇧 Inggris (menulis & membaca aktif, speaking menengah).</p>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="mb-10 lg:mb-0">
+                        <div class="flex">
+                            <div class="bg-purple-600 w-8 rounded-full p-2">
+                               <img src="img/mail.png" alt="" class="invert">
+                            </div>
+                            <h2 class="ml-2 self-center font-semibold dark:text-slate-100">Contact</h2>
+                        </div>
+                        <p class="pt-3 text-sm text-dark1 dark:text-slate-400">ikhwan.taufiq05@gmail.com
+                               <br>+62 821-8092-1203
+                               <br>GitHub: ikhwan05
+                               <br>LinkedIn: ikhwantaufiq</p>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="mb-10 lg:mb-0">
+                        <div class="flex">
+                            <div class="bg-red-700 w-8 rounded-full p-2">
+                               <img src="img/placeholder.png" alt="" class="invert">
+                            </div>
+                            <h2 class="ml-2 self-center font-semibold dark:text-slate-100">Location</h2>
+                        </div>
+                        <p class="pt-3 text-sm text-dark1 dark:text-slate-400">Jeneponto, Sulsel. Siap kerja remote/freelance.</p>
+                    </div>
+
+                    <!-- Education Summary -->
+                    <div class="mb-10 lg:mb-0">
+                        <div class="flex">
+                            <div class="bg-emerald-400 w-8 rounded-full p-2">
+                               <img src="img/open-book.png" alt="" class="invert">
+                            </div>
+                            <h2 class="ml-2 self-center font-semibold dark:text-slate-100">Education Summary</h2>
+                        </div>
+                        <p class="pt-3 text-sm text-dark1 dark:text-slate-400">SMA 10 Jeneponto
+                               <br>Mahasiswa TI, Semester 4
+                               <br>Fokus: Web Dev & Cybersecurity</p>
+                    </div>
+                </div>
+
+                <div class="w-full flex lg:ml-80 container">
+                        <h3 class="self-center font-bold text-dark1 dark:text-slate-100">Follow me on:</h3>
+                        <div class="bg-slate-200 w-[35px] rounded-full shadow-lg p-2 ml-3 hover:invert transition cursor-pointer"><img src="img/icons8-github-logo-64.png" alt=""></div>
+                        <div class="bg-slate-200 w-[35px] rounded-full shadow-lg p-2 ml-3 hover:invert transition-all cursor-pointer"><img src="img/icons8-instagram-48.png" alt=""></div>
+                        <div class="bg-slate-200 w-[35px] rounded-full shadow-lg p-2 ml-3 hover:invert transition-all cursor-pointer"><img src="img/icons8-tiktok-50.png" alt=""></div>
+                    </div>
+            </div>
+        </div>
+     </section>
+     <!-- About Me Section End -->
+
+     <!-- Skill Section Start -->
+      <section id="skill" class="pt-24 pb-32 dark:bg-slate-900">
+        <div class="container">
+            <h1 class="dark:text-slate-100 font-bold text-2xl text-center text-dark2 lg:text-4xl">Skills & <span class="text-sky-600">Expertise</span></h1>
+            <h3 class="text-sm mb-10 text-center text-dark1 dark:text-slate-400">Keahlian yang saya pelajari dan kembangkan secara mandiri dengan konsistensi</h3>
+            <div class="flex max-w-full lg:px-28 flex-wrap lg:flex-nowrap">
+                <!-- card front end -->
+                <div class="dark:bg-slate-800 p-6 mx-auto sm:w-[45%] bg-white rounded-lg shadow-md border w-full mb-8 lg:mb-0 dark:border-none">
+                    <div class="flex items-center mb-6">
+                        <div class="w-8 rounded-full bg-sky-500 p-2">
+                            <img src="img/icons8-laptop-24.png" alt="" class="invert">
+                        </div>
+                        <h2 class="font-bold text-dark2 ml-2 dark:text-slate-100">Front End Development</h2>
+                    </div>
+                    <div>
+                        <!-- HTML5 -->
+                        <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-html5-48.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">HTML5</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">90%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CSS3 -->
+                         <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-css3-48.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">CSS3</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">85%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tailwindcss -->
+                         <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-tailwindcss-48.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">TailwindCSS</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">80%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Reactjs -->
+                         <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-react-native-24.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">React.js</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">0%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- JavaScript -->
+                         <div class="w-full mb-5">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-javascript-48.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">JavaScript</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">0%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card backend end -->
+                <div class="p-6 mx-auto sm:w-[45%] sm:ml-1 bg-white rounded-lg dark:bg-slate-800 dark:border-none shadow-md border w-full mb-8 lg:mb-0 lg:ml-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-8 rounded-full bg-green-500 p-2">
+                            <img src="img/icons8-storage-24.png" alt="" class="invert">
+                        </div>
+                        <h2 class="font-bold text-dark2 ml-2 dark:text-slate-100">Back End Development</h2>
+                    </div>
+                    <div>
+                        <!-- Node js -->
+                        <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-node-js-48.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">Node.js</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">0%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PHP -->
+                         <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-php-logo-30.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">PHP</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">0%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Python -->
+                         <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-python-48.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">Python</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">0%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Laravel -->
+                         <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-laravel-48.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">Laravel</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">0%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card database and cloud -->
+                <div class="p-6 mx-auto sm:w-[45%] bg-white dark:bg-slate-800 dark:border-none rounded-lg shadow-md border w-full mb-8 lg:mb-0 lg:ml-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-8 rounded-full bg-orange-500 p-2">
+                            <img src="img/icons8-cloud-50.png" alt="" class="invert">
+                        </div>
+                        <h2 class="font-bold text-dark2 ml-2 dark:text-slate-100">Database & Cloud</h2>
+                    </div>
+                    <div>
+                        <!-- MongoDb -->
+                        <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-mongodb-50.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">MongoDB</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">0%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MySQL -->
+                         <div class="w-full mb-7">
+                            <div class="flex justify-between mb-2">
+                                <div class="flex">                                
+                                    <img src="img/icons8-mysql-50.png" alt="" class="w-5">
+                                    <h4 class="text-dark2 text-sm ml-1 dark:text-slate-400">MySQL</h4>
+                                </div>
+                                <span class="text-dark1 text-sm dark:text-slate-400">0%</span>
+                            </div>
+                            <div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full">
+                                    <div class="bg-sky-500 h-2 rounded-full" style="width: 0%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+      </section>
+      <!-- Skill Section End -->
+
+      <!-- Portofolio Section Start -->
+       <section id="portofolio" class="pt-24 pb-32 dark:bg-slate-800">
+        <div class="container">
+            <h1 class="text-2xl font-bold text-center text-dark2 lg:text-4xl dark:text-slate-100">Projects & <span class="text-sky-600">Portofolio</span></h1>
+            <h3 class="text-sm text-center text-dark1 mb-10 dark:text-slate-400">Menampilkan karya dan keahlian saya di berbagai bidang teknis</h3>
+            <div class="max-w-full sm:flex sm:flex-wrap sm:gap-6 lg:px-28 justify-evenly">
+                <!-- porto -->
+                <div class="sm:w-[45%] dark:bg-slate-900 dark:hover:border-sky-600 bg-white w-full shadow-lg rounded-lg p-5 hover:border-2 hover:border-green-400 hover:-translate-y-2 transition duration-300 mb-5 lg:w-[30%]">
+                    <div class="w-14 bg-green-500 rounded-full p-3 mx-auto m-3 dark:bg-sky-600">
+                        <img src="img/html.png" alt="" class="invert">
+                    </div>
+                    <h2 class="font-bold text-center text-dark2 mb-3 dark:text-slate-100">Portofolio Website</h2>
+                    <p class="text-sm text-center text-dark1 mb-5 dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aut?</p>
+                    <div class="flex justify-center mb-4">
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold">React.js</h4>
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold ml-2">TailwindCSS</h4>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="flex items-center">
+                            <img src="img/icons8-github-logo-64.png" alt="" class="w-5 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">GitHub</span></a>
+                        </div>
+                        <div class="flex items-center ml-3">
+                            <img src="img/external-link.png" alt="" class="w-4 h-4 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">Live Demo</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- porto -->
+                <div class="sm:w-[45%] dark:bg-slate-900 dark:hover:border-sky-600 bg-white w-full shadow-lg rounded-lg p-5 hover:border-2 hover:border-green-400 hover:-translate-y-2 transition duration-300 mb-5 lg:w-[30%]">
+                    <div class="w-14 bg-green-500 rounded-full p-3 mx-auto m-3 dark:bg-sky-600">
+                        <img src="img/html.png" alt="" class="invert">
+                    </div>
+                    <h2 class="font-bold text-center text-dark2 mb-3 dark:text-slate-100">Portofolio Website</h2>
+                    <p class="text-sm text-center text-dark1 mb-5 dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aut?</p>
+                    <div class="flex justify-center mb-4">
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold">React.js</h4>
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold ml-2">TailwindCSS</h4>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="flex items-center">
+                            <img src="img/icons8-github-logo-64.png" alt="" class="w-5 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">GitHub</span></a>
+                        </div>
+                        <div class="flex items-center ml-3">
+                            <img src="img/external-link.png" alt="" class="w-4 h-4 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">Live Demo</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- porto -->
+                <div class="sm:w-[45%] dark:bg-slate-900 dark:hover:border-sky-600 bg-white w-full shadow-lg rounded-lg p-5 hover:border-2 hover:border-green-400 hover:-translate-y-2 transition duration-300 mb-5 lg:w-[30%]">
+                    <div class="w-14 bg-green-500 rounded-full p-3 mx-auto m-3 dark:bg-sky-600">
+                        <img src="img/html.png" alt="" class="invert">
+                    </div>
+                    <h2 class="font-bold text-center text-dark2 mb-3 dark:text-slate-100">Portofolio Website</h2>
+                    <p class="text-sm text-center text-dark1 mb-5 dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aut?</p>
+                    <div class="flex justify-center mb-4">
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold">React.js</h4>
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold ml-2">TailwindCSS</h4>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="flex items-center">
+                            <img src="img/icons8-github-logo-64.png" alt="" class="w-5 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">GitHub</span></a>
+                        </div>
+                        <div class="flex items-center ml-3">
+                            <img src="img/external-link.png" alt="" class="w-4 h-4 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">Live Demo</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- porto -->
+                <div class="sm:w-[45%] dark:bg-slate-900 dark:hover:border-sky-600 bg-white w-full shadow-lg rounded-lg p-5 hover:border-2 hover:border-green-400 hover:-translate-y-2 transition duration-300 mb-5 lg:w-[30%]">
+                    <div class="w-14 bg-green-500 rounded-full p-3 mx-auto m-3 dark:bg-sky-600">
+                        <img src="img/html.png" alt="" class="invert">
+                    </div>
+                    <h2 class="font-bold text-center text-dark2 mb-3 dark:text-slate-100">Portofolio Website</h2>
+                    <p class="text-sm text-center text-dark1 mb-5 dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aut?</p>
+                    <div class="flex justify-center mb-4">
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold">React.js</h4>
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold ml-2">TailwindCSS</h4>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="flex items-center">
+                            <img src="img/icons8-github-logo-64.png" alt="" class="w-5 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">GitHub</span></a>
+                        </div>
+                        <div class="flex items-center ml-3">
+                            <img src="img/external-link.png" alt="" class="w-4 h-4 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">Live Demo</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- porto -->
+                <div class="sm:w-[45%] dark:bg-slate-900 dark:hover:border-sky-600 bg-white w-full shadow-lg rounded-lg p-5 hover:border-2 hover:border-green-400 hover:-translate-y-2 transition duration-300 mb-5 lg:w-[30%]">
+                    <div class="w-14 bg-green-500 rounded-full p-3 mx-auto m-3 dark:bg-sky-600">
+                        <img src="img/html.png" alt="" class="invert">
+                    </div>
+                    <h2 class="font-bold text-center text-dark2 mb-3 dark:text-slate-100">Portofolio Website</h2>
+                    <p class="text-sm text-center text-dark1 mb-5 dark:text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aut?</p>
+                    <div class="flex justify-center mb-4">
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold">React.js</h4>
+                        <h4 class="text-[12px] text-green-600 bg-green-100 p-[2px] dark:text-slate-800 dark:bg-slate-50 rounded-sm font-semibold ml-2">TailwindCSS</h4>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="flex items-center">
+                            <img src="img/icons8-github-logo-64.png" alt="" class="w-5 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">GitHub</span></a>
+                        </div>
+                        <div class="flex items-center ml-3">
+                            <img src="img/external-link.png" alt="" class="w-4 h-4 dark:invert">
+                            <a href=""><span class="text-xs ml-1 text-green-700 dark:text-sky-600">Live Demo</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+       <!-- Portofolio Section End -->
+
+       <!-- Contact Section Start -->
+        <section id="contact" class="pt-24 pb-32 dark:bg-slate-800">
+            <div class="container lg:px-28">
+                <h1 class="dark:text-slate-100 text-dark2 font-bold text-2xl lg:text-4xl text-center">Get in <span class="text-sky-600">Touch</span></h1>
+                <h4 class="dark:text-slate-400 text-dark1 text-sm text-center mb-10">Ayo ngobrol bareng, bahas peluang kerja sama, atau sekadar menyapa!</h4>
+                <form action="" class="dark:bg-slate-900 dark:border-none bg-white p-4 pt-7 rounded-lg shadow-lg border sm:w-[70%] mx-auto">
+                    <div class="px-4 mb-8 w-full">
+                        <label for="name" class="text-base font-semibold text-dark2 dark:text-slate-400">Name</label>
+                        <input type="text" id="name" class="w-full bg-slate-100 p-3 rounded-lg focus:outline-none dark:bg-slate-800 focus:ring-sky-500 focus:ring-2" placeholder="Your Name">
+                    </div>
+
+                    <div class="px-4 mb-8 w-full">
+                        <label for="email" class="text-base font-semibold text-dark2 dark:text-slate-400">Email</label>
+                        <input type="email" id="email" class="w-full bg-slate-100 p-3 rounded-lg dark:bg-slate-800 focus:outline-none focus:ring-sky-500 focus:ring-2" placeholder="Your Email">
+                    </div>
+
+                    <div class="px-4 mb-8 w-full">
+                        <label for="massage" class="text-base font-semibold text-dark2 dark:text-slate-400">Massage</label>
+                        <textarea id="massage" class="w-full bg-slate-100 p-3 rounded-lg h-32 focus:outline-none dark:bg-slate-800 focus:ring-sky-500 focus:ring-2" placeholder="Your Massage">
+                        </textarea>    
+                    </div>
+
+                    <div class="w-full bg-sky-600 text-white p-3 rounded-full text-center">
+                        <button>
+                            <div class="flex items-center gap-2">
+                                <img src="img/icons8-send-30.png" alt="" class="invert w-5">
+                                <h4>Send Massage</h4>
+                            </div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Contact Section End -->
+
+        <!-- Tombol kanan bawah start-->
+          <div class="conatiner border shadow-lg mx-auto">
+            <div id="to-top" class="bg-sky-600 rounded-full hidden w-12 h-12 bottom-16 right-10 fixed">
+            <a href="#home" class="m-auto text-xl text-slate-100 -rotate-90 font-bold">></a>
+          </div>
+          </div>
+          <!-- Tombol kanan bawah end -->
+
+        <!-- Footer Start -->
+         <footer class="bg-dark2 dark:bg-slate-900 p-5">
+            <h4 class="text-xs text-center text-slate-50 dark:text-slate-400">© 2025 Yuma Kirito. Dibuat dengan semangat belajar.</h4>
+         </footer>
+         <!-- Footer End -->
+
+     <script src="dist/js/script.js"></script>
+</body>
+</html>
